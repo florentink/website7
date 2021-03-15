@@ -3,12 +3,12 @@ colors:
 - black
 - white
 - gray
-date: "2019-10-17T11:22:16+06:00"
-description: this is meta description
+date: "2021-03-15T11:22:05+06:00"
+description: this is my products
 discount_price: "25.00"
 draft: false
 images:
-- images/showcase/showcase-1.png
+- images/showcase/Business shoe.jpg
 - images/showcase/showcase-2.png
 - images/showcase/showcase-3.png
 - images/showcase/showcase-4.png
