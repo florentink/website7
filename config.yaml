@@ -1,0 +1,82 @@
+baseurl: http://examplesite.com/
+title: Vex | hugo landing page template
+theme: vex-hugo
+summarylength: '20'
+googleAnalytics: ''
+disableLanguages: []
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+params:
+  author: Florentin
+  contact_form_action: '#'
+  currency: $
+  description: This is website
+  logo: images/logo.png
+  logo_width: 100px
+  plugins:
+    css:
+      - link: https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themefisher-font/themefisher-font.min.css
+      - link: plugins/slick/slick.min.css
+      - link: https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css
+    js:
+      - link: plugins/jquery/jquery.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js
+  preloader:
+    enable: yes
+    preloader: ''
+  snipcart_api: ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4
+  subscription:
+    mailchimp_form_action: https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
+    mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
+menu:
+  footer:
+    - name: Blog
+      url: blog
+      weight: 1
+    - name: Contact
+      url: contact
+      weight: 2
+    - name: Terms & Conditions
+      url: terms-conditions
+      weight: 3
+    - name: Privacy Policy
+      url: privacy-policy
+      weight: 4
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Products
+      url: products
+      weight: 2
+    - name: Blog
+      url: blog
+      weight: 3
+    - name: Review
+      pre: '#'
+      url: testimonial
+      weight: 4
+    - name: Contact
+      url: contact
+      weight: 5
+Languages:
+  en:
+    contentDir: content/english
+    copyright: Designed By [Themefisher](https://themefisher.com/) & Developed By
+      [Gethugothemes](https://gethugothemes.com/)
+    languageCode: en-us
+    languageName: En
+    weight: 1
+  fr:
+    contentDir: content/french
+    copyright: Designed By [Themefisher](https://themefisher.com/) & Developed By
+      [Gethugothemes](https://gethugothemes.com/)
+    languageCode: fr-fr
+    languageName: Fr
+    weight: 2
