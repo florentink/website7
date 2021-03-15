@@ -1,5 +1,4 @@
 ---
-description: this is a meta description
-draft: false
+This my new website for style
 title: Our Latest Post
 ---
