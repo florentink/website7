@@ -8,7 +8,7 @@ description: this is my products
 discount_price: "25.00"
 draft: false
 images:
-- images/showcase/Business shoe.jpg
+- images/showcase/africanstyle.png
 - images/showcase/showcase-2.png
 - images/showcase/showcase-3.png
 - images/showcase/showcase-4.png
@@ -17,7 +17,7 @@ sizes:
 - small
 - medium
 - large
-title: Apple Watch
+title: africanstyle
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+africanstyle is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
